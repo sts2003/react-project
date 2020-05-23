@@ -1,0 +1,20 @@
+.movieBox {
+  width: 350px;
+  height: 120px;
+  box-shadow: 2px 2px 2px #0b0b0b;
+  margin-bottom: 22px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.movieBox .movieBox__desc {
+  font-size: 12px;
+}
+
+.movieBox .movieBox__poster {
+  box-shadow: 2px 2px 2px #0b0b0b;
+  margin: 0px 20px;
+}

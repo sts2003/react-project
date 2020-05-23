@@ -1,0 +1,54 @@
+.main__header {
+  width: 100%;
+  height: 44px;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main__content .main__btnArea {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main__content .main__btnArea .main__btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  background: rebeccapurple;
+  box-shadow: 2px 2px 2px #0b0b0b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main__content .main__btnArea .main__btn:active {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  background: slateblue;
+  box-shadow: 2px 2px 2px #0b0b0b;
+  font-size: 14px;
+  font-weight: 500;
+}
