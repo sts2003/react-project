@@ -57,8 +57,6 @@ class MainPage extends React.Component {
       "https://api.themoviedb.org/3/movie/now_playing?api_key=0ff05e1049342b3ec508d217c36672d4&language=en-US&page=1"
     ).then((response) => response.json());
 
-    console.log(data);
-
     this.setState({
       mainTitle: true,
       mainPage: data.results,

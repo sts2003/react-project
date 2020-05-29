@@ -1,0 +1,47 @@
+.detail__main .detail__image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10px;
+}
+.detail__main .detail__card {
+  box-shadow: 2px 2px 2px #0b0b0b;
+}
+
+.detail__main .detail__menu div {
+  margin: 10px;
+}
+
+.detail__main .btn__Area {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  background: rgb(50, 46, 75);
+  box-shadow: 2px 2px 2px #0b0b0b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.detail__main .btn__Area .btn__Area:active {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  background: skyblue;
+  box-shadow: 2px 2px 2px #0b0b0b;
+  font-size: 14px;
+  font-weight: 500;
+}

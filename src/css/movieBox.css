@@ -18,3 +18,7 @@
   box-shadow: 2px 2px 2px #0b0b0b;
   margin: 0px 20px;
 }
+
+.movie__title {
+  text-decoration: none;
+}

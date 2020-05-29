@@ -5,3 +5,8 @@
 @import "./dramaBox.css";
 @import "./mainPage.css";
 @import "./mainBox.css";
+@import "./movieDetail.css";
+
+a {
+  text-decoration: none;
+}
